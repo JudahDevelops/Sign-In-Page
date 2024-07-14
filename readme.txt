@@ -1,0 +1,4 @@
+#Sign In Page#
+This is my first project since I started re-learning how to code, It's just a sign in page I made with a design I thought up from my notebook. 
+It doesn't do anything it's just the design aesthetic I wanted to work on, not only did I practice the skills I learned from the lessons I have been taking but I ended up remembering a lot of the other css properties I knew back in the day, It was an amazing learning experience.
+The code explanation can be found in very long paragraph comments all over my css code and as for the html theres not much to try and understand so I did not add any comments.

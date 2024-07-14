@@ -1,0 +1,115 @@
+/*sans serif because it looks good*/
+body {
+    font-family: sans-serif;
+    padding: auto;
+}
+
+/*i made it this way because the only thing that needs resising are the divs*/
+form {
+    margin: 4px auto;
+    width: fit-content;
+    height: 31em;
+    padding: 3em;
+}
+
+
+/*just a general aesthetic I want the divs to follow and therefore the whole site to follow*/
+div {
+    background-color: white;
+    border: 4px solid black;
+    box-shadow: 14px 14px;
+    padding: 0;
+    position: relative;
+    top: -6em;
+}
+
+/*the text in the label element in the html file was wrapped in p elements so that its easier for me to give the text the same design as the divs*/
+p {
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 4px 4px;
+    width: fit-content;
+    padding: 0 6px;
+    margin: 0.8em 1.54em 0.8em 0;
+
+}
+
+/*this is the div that contains the email and password inputs, i just added a bit of spacing to my liking*/
+#main {
+    margin: 0em 3em 3em 3em;
+    padding: 5em 3em;
+    
+}
+
+/*this was to also give the input buttons the aesthetic I wanted, i thought it looked very cool like this*/
+input {
+    border: none;
+    border-bottom: 3px solid black;
+    border-radius: 2px 2px 0 0;
+    transition: all 0.5s;
+    height: 1.5em;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 16em;
+}
+
+/*I added this because I thought it would be hard for people to know when they are typing or not or when they are hovering over so i gave it this transition in color*/
+input:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+/*I didnt want the email and password inputs to have the same margins so i created two different selectors so that I can individually set the margin*/
+#main label #email {
+    margin-bottom: 4rem;
+    margin-top: 0;
+}
+
+#main label #pass {
+    margin-bottom: 0;
+}
+
+/*I nested a button element into the div and made the width and height this way so that the design on the div is like a piece of clothing on the already made button*/
+button {
+    border: none;
+    width: 100%;
+    height: 100%;  
+    font-size: 30px;
+    background-color: white;
+}
+
+/*this is the sizing of the submit buttons div, i shifted it to the left a bit because it felt off center to the main form, I also added a cool animation :)*/
+#submit {
+    width: 9em;
+    height: 4em;
+    margin: auto;
+    position: relative;
+    right: -5px;
+    transition: all 0.4s;
+}
+
+#submit:hover {
+    width: 11.3em;
+    box-shadow: 7px 7px;
+    position: relative; 
+}
+
+/*for the logo of the website your signing into I only had the version that was black with white text so I inverted it and then changed the border and box-shadow from black to white and then added the image, I used the positon property to move the logo to where it is now which is how I drew it in my book*/
+#pfp {
+    border-color: white;
+    width: 7em;
+    height: 7em;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 9px 9px white;
+    top: -2.8em;
+    background-image: url(images/Screenshot\ from\ 2023-07-10\ 22-40-24.png);
+    background-position: center;
+    background-size: 150%;
+    filter: invert(100%);
+    z-index: 1;
+}
+
+
+
+
+
